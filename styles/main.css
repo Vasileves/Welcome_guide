@@ -17,23 +17,9 @@ body {
 
 }
 
-
-.title h1 {
-  font-size: 130px;
-  font-family: 'Roboto Condensed', sans-serif;
-  color: #fff;
-  /* position: absolute; */
-  /* margin-top: 25%;
-  margin-left: 10%; */
-  line-height: 95%;
-  font-weight: bold;
-}
-
+/* Title stuff */
 .title {
-  /*
-    VH = Viewport Height (размер высоты видимой области сайта в браузере)
-  */
-  height: 904px;
+  height: 100vh;
   color: #fff;
   background-image: url(../img/title.png);
   background-repeat: no-repeat;
@@ -45,13 +31,23 @@ body {
   padding: 0;
   width: 100%;}
 
-  /* Title text*/
+
+.title h1 {
+    font-size: 130px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+
+    line-height: 95%;
+    font-weight: bold;
+  }
+
 .titletxt{
   font-size: 31px;
   font-family: 'Roboto', sans-serif;
   color: #E1E1E1;
   margin-top: 50px;
   margin-bottom: 50px;
+  line-height: 125%;
   }
 
 .titlediv {
@@ -62,7 +58,10 @@ body {
   margin-top: 200px;
   }
 
-.btn {
+
+/* button */
+
+.title .btn {
     font-family: 'Roboto', sans-serif;
     background-color: #fff;
     border: none;
@@ -76,8 +75,67 @@ body {
     transition-duration: 0.4s;
   }
 
-  .btn:hover {
+
+.title .btn:hover {
     background-color: #C6C6C6;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
   }
+
+/* block1 */
+.block1 {
+  height: 904px;
+  color: #fff;
+  text-align: left;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  }
+
+
+.block1 h1{
+  font-size: 80px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #000;
+  text-align: center;
+  line-height: 95%;
+  font-weight: bold;
+  margin-top:100px;
+  margin-bottom:100px;
+  }
+
+
+.flx1 {
+  display: flex;
+  justify-content: center;
+}
+
+.flx1 .spisok {
+  margin:0 100px;
+  padding:0;
+  width: 498px;
+  height: 455px;
+  background-color: #fff;
+
+}
+
+.flx1 .spisok h1 {
+  font-size: 126px;
+  font-family: 'Roboto', sans-serif;
+  color: #0002C9;
+  transform: translateY(-80%);
+  font-weight: bold;
+  line-height: 0;
+  display: inline-block;
+  position: relative;
+  margin-left: -100px;
+}
+.flx1 .spisok h2 {
+  margin-left: 76px;
+  display: inline-block;
+  font-size: 48px;
+  font-family: 'Roboto', sans-serif;
+  color: #2D2D2D;
+  font-weight: regular;
+}
