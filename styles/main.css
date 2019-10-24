@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:300,400&display=swap&subset=cyrillic');
+@import "reset.css";
+
+
+
+
+body {
+  margin: 0;
+}
+
+
+.text {
+  font-size: 31
+  font-family: 'Roboto', sans-serif;
+  color: #797979;
+  margin: 0;
+
+}
+
+
+.title h1 {
+  font-size: 130px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #fff;
+  /* position: absolute; */
+  /* margin-top: 25%;
+  margin-left: 10%; */
+  line-height: 95%;
+}
+
+.title {
+  /*
+    VH = Viewport Height (размер высоты видимой области сайта в браузере)
+  */
+  height: 904px;
+  color: #fff;
+  background-image: url(../img/title.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: left;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100%;}
+
+  /* Title text*/
+.titletext{
+  width: 819px;
+  position: absolute;
+  font-size: 31px;
+  font-family: 'Roboto', sans-serif;
+  color: #E1E1E1;
+
+  margin-left: 10%;
+  margin-right: 40%;
+  margin-top: 146px;
+  }
+
+  .btn {
+    margin-top: 70px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    border: none;
+    color: #000;
+    padding: 10px 59px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+
+  .btn:hover {
+    background-color: #C6C6C6;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
