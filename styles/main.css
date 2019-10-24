@@ -9,13 +9,6 @@ body {
 }
 
 
-.text {
-  font-size: 31
-  font-family: 'Roboto', sans-serif;
-  color: #797979;
-  margin: 0;
-
-}
 
 /* Title stuff */
 .title {
@@ -59,7 +52,7 @@ body {
   }
 
 
-/* button */
+/* titlebutton */
 
 .title .btn {
     font-family: 'Roboto', sans-serif;
@@ -83,18 +76,20 @@ body {
   }
 
 /* block1 */
+
 .block1 {
-  height: 904px;
+  height: 801px;
   color: #fff;
   text-align: left;
-  position: absolute;
+  position: relative;
   margin: 0;
   padding: 0;
   width: 100%;
+  margin-bottom: 110px;
   }
 
 
-.block1 h1{
+.block1 h1 {
   font-size: 80px;
   font-family: 'Roboto Condensed', sans-serif;
   color: #000;
@@ -104,7 +99,9 @@ body {
   margin-top:70px;
   }
 
+
 /* Flex1 line */
+
 .flx1 {
   display: flex;
   justify-content: center;
@@ -113,10 +110,12 @@ body {
 }
 
 /* Flex1 block */
+
 .flx1 .spisok {
   margin:0 60px;
   padding:0;
   width: 498px;
+
   /* background-color: #fafafa; */
 
 }
@@ -151,7 +150,54 @@ body {
   color: #797979;
   line-height: 135.6%;
   position: absolute;
-  margin: 140px 30px;
   display: inline-block;
   width: 392px;
+}
+
+.flx1 .txt{
+  margin: 140px 30px;
+}
+
+/* Flex2 line*/
+
+.mhlist {
+  align: center;
+  height: 200px;
+  margin:100px 174px;
+}
+
+.mh {
+  margin: 5px;
+  align: center;
+}
+
+.mhlist h1 {
+  font-size: 80px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #000;
+  text-align: center;
+  line-height: 95%;
+  font-weight: bold;
+  margin-top: 140px;
+  margin-bottom: 70px;
+  }
+
+.mhlist h2 {
+  font-size: 48px;
+  font-family: 'Roboto', sans-serif;
+  color: #2D2D2D;
+  font-weight: regular;
+  line-height: 124.5%;
+}
+
+.mlistdes {
+  font-weight: bolder;
+  position: absolute;
+  margin-left: 88px;
+  display: inline-block;
+}
+
+.mlistdes .txt{
+    margin-top: 16px;
+    width: 831px;
 }
