@@ -26,6 +26,7 @@ body {
   /* margin-top: 25%;
   margin-left: 10%; */
   line-height: 95%;
+  font-weight: bold;
 }
 
 .title {
@@ -45,20 +46,23 @@ body {
   width: 100%;}
 
   /* Title text*/
-.titletext{
-  width: 819px;
-  position: absolute;
+.titletxt{
   font-size: 31px;
   font-family: 'Roboto', sans-serif;
   color: #E1E1E1;
-
-  margin-left: 10%;
-  margin-right: 40%;
-  margin-top: 146px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   }
 
-  .btn {
-    margin-top: 70px;
+.titlediv {
+  width: 819px;
+  position: absolute;
+  margin-left: 10%;
+  margin-right: 40%;
+  margin-top: 200px;
+  }
+
+.btn {
     font-family: 'Roboto', sans-serif;
     background-color: #fff;
     border: none;
