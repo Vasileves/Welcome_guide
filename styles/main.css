@@ -101,27 +101,28 @@ body {
   text-align: center;
   line-height: 95%;
   font-weight: bold;
-  margin-top:100px;
-  margin-bottom:100px;
+  margin-top:70px;
   }
 
-
+/* Flex1 line */
 .flx1 {
   display: flex;
   justify-content: center;
+  height: 320px;
+  margin-top:60px;
 }
 
+/* Flex1 block */
 .flx1 .spisok {
-  margin:0 100px;
+  margin:0 60px;
   padding:0;
   width: 498px;
-  height: 455px;
-  background-color: #fff;
+  /* background-color: #fafafa; */
 
 }
 
 .flx1 .spisok h1 {
-  font-size: 126px;
+  font-size: 80px;
   font-family: 'Roboto', sans-serif;
   color: #0002C9;
   transform: translateY(-80%);
@@ -129,13 +130,28 @@ body {
   line-height: 0;
   display: inline-block;
   position: relative;
-  margin-left: -100px;
 }
+
 .flx1 .spisok h2 {
-  margin-left: 76px;
   display: inline-block;
-  font-size: 48px;
+  font-size: 32px;
   font-family: 'Roboto', sans-serif;
   color: #2D2D2D;
   font-weight: regular;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 32px;
+  line-height: 124.5%;
+}
+
+.txt {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  font-size: 27px;
+  color: #797979;
+  line-height: 135.6%;
+  position: absolute;
+  margin: 140px 30px;
+  display: inline-block;
+  width: 392px;
 }
