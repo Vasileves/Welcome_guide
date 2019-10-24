@@ -78,14 +78,13 @@ body {
 /* block1 */
 
 .block1 {
-  height: 801px;
+  height: auto;
   color: #fff;
   text-align: left;
   position: relative;
   margin: 0;
   padding: 0;
   width: 100%;
-  margin-bottom: 110px;
   }
 
 
@@ -111,16 +110,14 @@ body {
 
 /* Flex1 block */
 
-.flx1 .spisok {
+.todopos {
   margin:0 60px;
   padding:0;
   width: 498px;
-
   /* background-color: #fafafa; */
-
 }
 
-.flx1 .spisok h1 {
+.flx1 .todopos h1 {
   font-size: 80px;
   font-family: 'Roboto', sans-serif;
   color: #0002C9;
@@ -131,7 +128,7 @@ body {
   position: relative;
 }
 
-.flx1 .spisok h2 {
+.flx1 .todopos h2 {
   display: inline-block;
   font-size: 32px;
   font-family: 'Roboto', sans-serif;
@@ -158,9 +155,9 @@ body {
   margin: 140px 30px;
 }
 
-/* Flex2 line*/
+/* Must have list*/
 
-.mhlist {
+.mhpos {
   align: center;
   height: 200px;
   margin:100px 174px;
@@ -168,10 +165,9 @@ body {
 
 .mh {
   margin: 5px;
-  align: center;
 }
 
-.mhlist h1 {
+.mhposs h1 {
   font-size: 80px;
   font-family: 'Roboto Condensed', sans-serif;
   color: #000;
@@ -182,7 +178,7 @@ body {
   margin-bottom: 70px;
   }
 
-.mhlist h2 {
+.mhpos h2 {
   font-size: 48px;
   font-family: 'Roboto', sans-serif;
   color: #2D2D2D;
@@ -190,14 +186,33 @@ body {
   line-height: 124.5%;
 }
 
-.mlistdes {
+.mhposdes {
   font-weight: bolder;
   position: absolute;
   margin-left: 88px;
   display: inline-block;
 }
 
-.mlistdes .txt{
+.mhposdes .txt{
     margin-top: 16px;
     width: 831px;
+}
+
+/* flx2 line */
+
+.flx2 {
+  display: flex;
+  justify-content: center;
+  height: 320px;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.bonpos {
+  margin:0 76px;
+  padding:0;
+  width: 369px;
+  height: 688px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  /* background-color: #fafafa; */
 }
