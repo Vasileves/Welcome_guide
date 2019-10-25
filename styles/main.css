@@ -232,7 +232,7 @@ body {
 }
 
 .bonpos .txt {
-  width: 328px;
+  width: 300px;
   padding-left: 21px;
   padding-top: 35px;
 }
@@ -243,7 +243,7 @@ body {
   border: none;
   color: #fff;
   padding: 10px 59px;
-  margin-left: 15%;
+  margin-left: 8%;
   margin-top: 30%;
   text-align: center;
   text-decoration: none;
