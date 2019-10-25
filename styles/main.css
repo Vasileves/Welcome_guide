@@ -160,7 +160,7 @@ body {
 .mhpos {
   align: center;
   height: 200px;
-  margin:100px 174px;
+  margin: 100px 174px;
 }
 
 .mh {
@@ -179,7 +179,7 @@ body {
   }
 
 .mhpos h2 {
-  font-size: 48px;
+  font-size: 32px;
   font-family: 'Roboto', sans-serif;
   color: #2D2D2D;
   font-weight: regular;
@@ -190,6 +190,7 @@ body {
   font-weight: bolder;
   position: absolute;
   margin-left: 88px;
+  margin-top: 20px;
   display: inline-block;
 }
 
@@ -203,16 +204,53 @@ body {
 .flx2 {
   display: flex;
   justify-content: center;
-  height: 320px;
+  height: 750px;
   margin-top: 128px;
-  margin-bottom: 100px;
+  align-items: flex-start;
 }
 
 .bonpos {
-  margin:0 76px;
-  padding:0;
+  margin: 0 76px;
+  padding: 0;
   width: 369px;
   height: 688px;
   box-shadow: 0px 28px 66px 0px rgba(0,0,0,0.18);
   /* background-color: #fafafa; */
+}
+
+.bonposimg {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 246px;
+  font-size: 64px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #fff;
+  font-weight: bold;
+}
+
+.bonposimgdes {
+  position: relative;
+  top: 175px;
+  left: 12px;
+  width: 100px;
+  text-align:left;
+}
+
+.bonpos .txt {
+  width: 328px;
+  padding-left: 21px;
+  padding-top: 35px;
+}
+
+#bon1 {
+  background-image: url(../img/restore.png);
+}
+
+#bon2 {
+  background-image: url(../img/metro.png);
+}
+
+#bon3 {
+  background-image: url(../img/asos.png);
 }
