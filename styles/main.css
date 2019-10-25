@@ -201,13 +201,12 @@ body {
   justify-content: center;
   height: 750px;
   margin-top: 128px;
-  align-items: flex-start;
 }
 
 .bonpos {
   margin: 0 76px;
   padding: 0;
-  width: 369px;
+  width: 360px;
   height: 688px;
   box-shadow: 0px 28px 66px 0px rgba(0,0,0,0.18);
   /* background-color: #fafafa; */
